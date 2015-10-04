@@ -1,0 +1,29 @@
+1   1           10          1           10
+2   1           50          1           50
+3   1           100         1           100
+4   1           500         1           500
+5   1           1000        1           1000
+6   1           10000       1           10000
+7   1           10000       1           10000
+8   1           10000       1           10000
+9   1           10000       1           10000
+10  1           10000       1           10000
+0   Addlow      Addhi       Sublow      Subhi
+&
+1   1           10          1           50
+2   1           15          1           100
+3   1           20          1           200
+4   1           50          1           500
+5   1           100         1           1000
+6   1           1000        1           10000
+7   1           10000       1           10000
+0   Mullow      Mulhi       Divlow      Divhi
+&
+1   1       5       1       1       0       0
+2   1       5       1       1       1       1
+3   1       1       1       1       1       1
+0   AlgAnt  AlgCon  ModeA   ModeS   ModeM   ModeD
+
+// For algebra config, default value of low = 1, high = 100 -> 1 in 100 chance of being an algebra problem
+// 1:1 would result in all algebra problems.
+// Any ratios higher than 1:1 (like 2:1) are treated as 1:1.
